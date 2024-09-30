@@ -1,14 +1,14 @@
-name : Premnier workflow
+name: Premnier workflow
 
-on : workflow_dispatch
+on: workflow_dispatch
 
 jobs :
   premier-job : 
-    runs-on : unbuntu-latest
+    runs-on : ubuntu-latest
 
     steps : 
-      - name : Dit Bonjour
-        run : echo "Hello World !"
+      - name: Dit Bonjour
+        run: echo "Hello World !"
 
-      - name : dit bye
-        run : echo "GoobBye !"
+      - name: dit bye
+        run: echo "GoobBye !"
